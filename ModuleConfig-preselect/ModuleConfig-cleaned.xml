@@ -1,0 +1,1967 @@
+<!-- Created with FOMOD Creation Tool 1.7.0.37 [http://www.nexusmods.com/fallout4/mods/6821] --> 
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd"> 
+	<moduleName>MFD - Cleaned CC Content - 1.6.323</moduleName> 
+	<moduleImage path="Images\Misc\Header.jpg" /> 
+	<installSteps order="Explicit"> 
+		<installStep name="Apparel (Page 1 of 1)"> 
+			<optionalFileGroups order="Explicit"> 
+				<group name="Alternative Armors" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Daedric Mail"> 
+							<description>Includes three pieces of light Daedric armor as featured in The Elder Scrolls Blades. The quest Missing Merchant starts by speaking to the innkeeper of Candlehearth Hall in Windhelm.&#13;&#10;
+
+&#13;&#10;
+
+Quest Created by Kris Takahashi&#13;&#10;
+
+&#13;&#10;
+
+Installation Files:&#13;&#10;
+
+ccbgssse051-ba_daedricmail.esl</description> 
+							<image path="Images\Apparel\Daedric Mail.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse051-ba_daedricmail.esl" destination="ccbgssse051-ba_daedricmail.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse051-ba_daedricmail.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Daedric Plate"> 
+							<description>Includes two pieces of heavy Daedric Plate armor as featured in The Elder Scrolls Blades. The quest Beyond the Grave starts by reading Death of a Crimson Dirk in Dragonreach Dungeon in Whiterun.&#13;&#10;
+
+&#13;&#10;
+
+Quest Created by Kris Takahashi&#13;&#10;
+
+&#13;&#10;
+
+Installation Files:&#13;&#10;
+
+ccbgssse050-ba_daedric.esl</description> 
+							<image path="Images\Apparel\Daedric Plate.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse050-ba_daedric.esl" destination="ccbgssse050-ba_daedric.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse050-ba_daedric.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Dragon Plate"> 
+							<description>Includes four pieces of heavy Dragon Plate armor as featured in The Elder Scrolls Blades, plus the famed Dragonbone Mail.&#13;&#10;
+
+&#13;&#10;
+
+Quest Created by Kris Takahashi&#13;&#10;
+
+&#13;&#10;
+
+Installation Files:&#13;&#10;
+
+ccbgssse059-ba_dragonplate.esl</description> 
+							<image path="Images\Apparel\Dragon Plate.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse059-ba_dragonplate.esl" destination="ccbgssse059-ba_dragonplate.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse059-ba_dragonplate.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Dragonscale"> 
+							<description>Includes four pieces of light Dragonscale armor as featured in The Elder Scrolls Blades. The quest Tilted Scales starts by reading The Crimson Dirks, v4 in Candlehearth Hall in Windhelm.&#13;&#10;
+
+&#13;&#10;
+
+Quest Created by Kris Takahashi&#13;&#10;
+
+&#13;&#10;
+
+Installation Files:&#13;&#10;
+
+ccbgssse060-ba_dragonscale.esl</description> 
+							<image path="Images\Apparel\Dragonscale.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse060-ba_dragonscale.esl" destination="ccbgssse060-ba_dragonscale.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse060-ba_dragonscale.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Dwarven Mail"> 
+							<description>Includes four pieces of light Dwarven Mail armor as featured in The Elder Scrolls Blades. The quest Fan Favorite starts by reading Arena Fan's Note at a camp southeast of Ivarstead.&#13;&#10;
+
+&#13;&#10;
+
+Installation Files:&#13;&#10;
+
+ccbgssse062-ba_dwarvenmail.esl</description> 
+							<image path="Images\Apparel\Dwarven Mail.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse062-ba_dwarvenmail.esl" destination="ccbgssse062-ba_dwarvenmail.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse062-ba_dwarvenmail.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Dwarven Plate"> 
+							<description>Includes two pieces of heavy Dwarven armor as featured in The Elder Scrolls Blades. The quest Mightier than the Sword starts by reading Looter's Note at the Silver-Blood Inn in Markarth.&#13;&#10;
+
+&#13;&#10;
+
+Quest Created by Kris Takahashi&#13;&#10;
+
+&#13;&#10;
+
+Installation Files:&#13;&#10;
+
+ccbgssse061-ba_dwarven.esl</description> 
+							<image path="Images\Apparel\Dwarven Plate.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse061-ba_dwarven.esl" destination="ccbgssse061-ba_dwarven.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse061-ba_dwarven.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Ebony Plate"> 
+							<description>Includes four pieces of heavy Ebony armor as featured in The Elder Scrolls Blades. The quest Heart of Crimson starts by reading the Letter from Tyra Blood-Fire delivered by courier upon reaching level 32.&#13;&#10;
+
+&#13;&#10;
+
+Quest Created by Kris Takahashi&#13;&#10;
+
+&#13;&#10;
+
+Installation Files:&#13;&#10;
+
+ccbgssse063-ba_ebony.esl</description> 
+							<image path="Images\Apparel\Ebony Plate.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse063-ba_ebony.esl" destination="ccbgssse063-ba_ebony.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Elven Hunter"> 
+							<description>Includes three pieces of light Elven Hunter armor as featured in The Elder Scrolls Blades. The quest Once a Hunter starts by reading Guard Dossier Aesrael in the Falkreath Barracks.&#13;&#10;
+
+&#13;&#10;
+
+Quest Created by Kris Takahashi&#13;&#10;
+
+&#13;&#10;
+
+Installation Files:&#13;&#10;
+
+ccbgssse064-ba_elven.esl</description> 
+							<image path="Images\Apparel\Elven Hunter.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse064-ba_elven.esl" destination="ccbgssse064-ba_elven.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Iron"> 
+							<description>Includes four pieces of heavy Iron armor as featured in The Elder Scrolls Blades.&#13;&#10;
+
+&#13;&#10;
+
+Quest Created by Kris Takahashi&#13;&#10;
+
+&#13;&#10;
+
+Installation Files:&#13;&#10;
+
+ccbgssse052-ba_iron.esl</description> 
+							<image path="Images\Apparel\Iron.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse052-ba_iron.esl" destination="ccbgssse052-ba_iron.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Leather"> 
+							<description>Includes four pieces of Leather armor as featured in The Elder Scrolls Blades.&#13;&#10;
+
+&#13;&#10;
+
+Quest Created by Kris Takahashi&#13;&#10;
+
+&#13;&#10;
+
+Installation Files:&#13;&#10;
+
+ccbgssse053-ba_leather.esl</description> 
+							<image path="Images\Apparel\Leather.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse053-ba_leather.esl" destination="ccbgssse053-ba_leather.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Orcish Plate"> 
+							<description>Includes four pieces of heavy Orcish armor with fur as featured in The Elder Scrolls Blades.&#13;&#10;
+
+&#13;&#10;
+
+Quest Created by Kris Takahashi&#13;&#10;
+
+&#13;&#10;
+
+Installation Files:&#13;&#10;
+
+ccbgssse054-ba_orcish.esl</description> 
+							<image path="Images\Apparel\Orcish Plate.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse054-ba_orcish.esl" destination="ccbgssse054-ba_orcish.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Orcish Scaled"> 
+							<description>Includes four pieces of heavy Orcish armor  with leather as featured in The Elder Scrolls Blades.&#13;&#10;
+
+&#13;&#10;
+
+Quest Created by Kris Takahashi&#13;&#10;
+
+&#13;&#10;
+
+Installation Files:&#13;&#10;
+
+
+
+ccbgssse055-ba_orcishscaled.esl</description> 
+							<image path="Images\Apparel\Orcish Scaled.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse055-ba_orcishscaled.esl" destination="ccbgssse055-ba_orcishscaled.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Silver"> 
+							<description>Includes four pieces of heavy Silver armor as featured in The Elder Scrolls Blades. The quest When the Cat's Away starts by reading M'Sharra's Diary at The Bannered Mare in Whiterun.&#13;&#10;
+
+&#13;&#10;
+
+Quest Created by Kris Takahashi&#13;&#10;
+
+&#13;&#10;
+
+Installation Files:&#13;&#10;
+
+ccbgssse056-ba_silver.esl</description> 
+							<image path="Images\Apparel\Silver.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse056-ba_silver.esl" destination="ccbgssse056-ba_silver.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Stalhrim Fur"> 
+							<description>Includes four pieces of heavy Stalhrim armor as featured in The Elder Scrolls Blades. The quest Ancient Ice starts by reading Skjol's Journal at the camp south-southwest of Skaal Village.&#13;&#10;
+
+&#13;&#10;
+
+Quest Created by Kris Takahashi&#13;&#10;
+
+&#13;&#10;
+
+Installation Files:&#13;&#10;
+
+ccbgssse057-ba_stalhrim.esl</description> 
+							<image path="Images\Apparel\Stalhrim Fur.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse057-ba_stalhrim.esl" destination="ccbgssse057-ba_stalhrim.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse057-ba_stalhrim.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Steel Soldier"> 
+							<description>Includes four pieces of heavy Steel armor as featured in The Elder Scrolls Blades. The quest Over the Edge starts by reading Suicide at Dragon Bridge in Four Shields Tavern at Dragon Bridge.&#13;&#10;
+
+&#13;&#10;
+
+Quest Created by Kris Takahashi&#13;&#10;
+
+&#13;&#10;
+
+Installation Files:&#13;&#10;
+
+ccbgssse058-ba_steel.esl</description> 
+							<image path="Images\Apparel\Steel Soldier.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse058-ba_steel.esl" destination="ccbgssse058-ba_steel.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+			</optionalFileGroups> 
+		</installStep> 
+		<installStep name="Apparel (Page 2 or 2)"> 
+			<optionalFileGroups order="Explicit"> 
+				<group name="Armor Sets" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Lord's Mail"> 
+							<description>The legendary Imperial relic known as The Lord's Mail is rumored to be in the possession of Redguard mercenaries. The Imperial Legion has ordered you to retrieve it by any means. The quest Gift of Kynareth starts by reading Letter to General Tullius at Castle Dour in Solitude.&#13;&#10;
+
+&#13;&#10;
+
+Installation Files:&#13;&#10;
+
+ccbgssse021-lordsmail.esl</description> 
+							<image path="Images\Apparel\Lord's Mail.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse021-lordsmail.esl" destination="ccbgssse021-lordsmail.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Netch Leather"> 
+							<description>A tribe of hungry Rieklings seeks your aid to help hunt down a large bull netch. It's not the meat or jelly they wish to consume, however, but its leather. Help the tribe sate their stomachs or save them from their misguided appetites. Featuring the return of Netch Leather armor, including two additional skins. The quest More Than You Can Chew starts by reading the Peddler's Journal on a body of a Dark Elf north-northwest of Skaal Village, and southeast of Haknir's Shoal.
+
+
+
+Quest Created by Kris Takahashi
+
+
+
+Installation Files:
+
+ccbgssse041-netchleather.esl</description> 
+							<image path="Images\Apparel\Netch Leather Armor.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse041-netchleather.esl" destination="ccbgssse041-netchleather.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse041-netchleather.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Spell Knight"> 
+							<description>Adorn the armor of the Spell Knight, the Keepers of the Crypt of Hearts, renowned throughout High Rock for their bravery and valor. Learn the story of the Spell Knight whose heart was stolen by a witch and obtain the armor that was their standard. The Spell Knight Armor comes in three variants, including iron, steel, and ebony. The quest Crypt of the Heart starts by reading Crypt of the Heart - Draft at the Silver-Blood Inn in Markarth.
+
+
+
+Armor Created by ElleH
+
+Quest Created by Kris Takahashi
+
+
+
+Installation Files:
+
+ccedhsse002-splkntset.esl</description> 
+							<image path="Images\Apparel\Spell Knight.jpg" /> 
+							<files> 
+								<file source="CC Content\ccedhsse002-splkntset.esl" destination="ccedhsse002-splkntset.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccedhsse002-splkntset.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Vigil Enforcer"> 
+							<description>While Stendarr may offer mercy, the Vigil have none to spare. Among the ranks of these holy warriors are armored paladins who shed their priestly robes for hide and steel. Collect and craft four unique armor sets and deliver Stendarr's justice to both the abominations and those corrupted by them. The quest Unholy Vigil starts by reading the Letter to Keeper Carcette in the Hall of the Vigilant south of Dawnstar.
+
+
+
+Armor Created by Maty743
+
+Quest Created by Kris Takahashi
+
+
+
+Installation Files:
+
+ccmtysse002-ve.esl</description> 
+							<image path="Images\Apparel\Vigil Enforcer.jpg" /> 
+							<files> 
+								<file source="CC Content\ccmtysse002-ve.esl" destination="ccmtysse002-ve.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccmtysse002-ve.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+				<group name="Horse Armor" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Elven"> 
+							<description>Tamriel is a dangerous place. Protect your horse from danger with this beautiful handcrafted elven horse armor. Obtained via hostler at any stable.
+
+
+
+Installation Files:
+
+ccbgssse011-hrsarmrelvn.esl</description> 
+							<image path="Images\Apparel\Horse Armor.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse011-hrsarmrelvn.esl" destination="ccbgssse011-hrsarmrelvn.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Steel"> 
+							<description>Tamriel is a dangerous place. Protect your horse from danger with this beautiful handcrafted steel horse armor. Obtained via hostler at any stable.
+
+
+
+Installation Files:
+
+ccbgssse012-hrsarmrstl.esl</description> 
+							<image path="Images\Apparel\Horse Steel.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse012-hrsarmrstl.esl" destination="ccbgssse012-hrsarmrstl.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+				<group name="Misc" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Adventurer's Backback"> 
+							<description>Don't head off into the wilderness without your Adventurer's Backpack. Craft 16 variations with assorted effects. Backpacks can be purchased at vendors and crafted via Forge.
+
+
+
+Quest Created by FadingSignal
+
+
+
+Installation Files:
+
+ccfsvsse001-backpacks.esl</description> 
+							<image path="Images\Apparel\Adventurer's Backpack.jpg" /> 
+							<files> 
+								<file source="CC Content\ccfsvsse001-backpacks.esl" destination="ccfsvsse001-backpacks.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Fearsome Fists"> 
+							<description>From Iron to Dragonplate, this creation offers 15 gauntlet variants that can be crafted, purchased or found in the world. Each pair has been affixed with spikes, blades or horns to give impact to your unarmed attacks. Mix and match with existing armors to diversify your look. Items appear at vendors, in chests and can be crafted at any forge.
+
+
+
+Created by HothTrooper44
+
+
+
+Installation Files:
+
+cccbhsse001-gaunt.esl</description> 
+							<image path="Images\Apparel\Fearsom FIsts.jpg" /> 
+							<files> 
+								<file source="CC Content\cccbhsse001-gaunt.esl" destination="cccbhsse001-gaunt.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="cccbhsse001-gaunt.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Grey Cowl Returns"> 
+							<description>The legend of the Gray Fox is known throughout history, yet the ones who wear the cowl remain nameless. To become the next Gray Fox, you must first restore the identity of the Cowl's bearer, and only then can your crimes be bereft of a name. The quest The Gray Cowl of Nocturnal starts by confronting a thief in the Riften graveyard.
+
+
+
+Quest Created by Kris Takahashi
+
+
+
+Installation Files:
+
+ccbgssse020-graycowl.esl</description> 
+							<image path="Images\Apparel\Grey Cowl Returns.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse020-graycowl.esl" destination="ccbgssse020-graycowl.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Nordic Jewelry"> 
+							<description>Beset with a jewel made of the highest quality stalhrim, these elegant, handcrafted jewelry pieces combine traditional Nordic design with an elegance fit for a Jarl. Each gem is expertly chosen for its purity, color, and magical affinity. The ornate setting is made of the finest quicksilver that is guaranteed to retain its finish. Choose from three craftable options including a Nordic amulet, ring, or circlet, and travel the holds of Skyrim with style and grace. The quest Nordic Jewelry starts by reading the Certificate of Authenticity obtained if you buy Nordic jewelry from Madesi, Bersi Honey-Hand, Endarie or Belethor.
+
+
+
+Installation Files:
+
+ccedhsse001-norjewel.esl</description> 
+							<image path="Images\Apparel\Nordic Jewelry.jpg" /> 
+							<files> 
+								<file source="CC Content\ccedhsse001-norjewel.esl" destination="ccedhsse001-norjewel.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccedhsse001-norjewel.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+			</optionalFileGroups> 
+		</installStep> 
+		<installStep name="Equipment Sets"> 
+			<optionalFileGroups order="Explicit"> 
+				<group name="Selection" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Arms of Chaos"> 
+							<description>The original Staff of Chaos, or Balac-thurm, was shattered into pieces and lost to time. In the years since, mages have sought to recreate its magic. Follow the path of these mages as you obtain an ancient ring and restore the artifacts of chaos, including two new staves and an enchanted amulet. The quest The Arms of Chaos starts by reading Hyenril's Journal at Skytemple Ruins, north of the College of Winterhold.&#13;&#10;
+
+&#13;&#10;
+
+Created by PrivateEye&#13;&#10;
+
+Quest Created by Kris Takahashi&#13;&#10;
+
+&#13;&#10;
+
+Installation Files:&#13;&#10;
+
+ccpewsse002-armsofchaos.esl</description> 
+							<image path="Images\Equipment Sets\Arms of Chaos.jpg" /> 
+							<files> 
+								<file source="CC Content\ccpewsse002-armsofchaos.esl" destination="ccpewsse002-armsofchaos.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccpewsse002-armsofchaos.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Civil War Champions"> 
+							<description>In the midst of an unending war, the Stormcloaks and Imperials have agreed to a duel. Two champions are to meet on the field of battle, to decide once and for all whose warriors are the fiercest. Choose a side, don the armor of the champion, and prove your mettle. The quest Battle of the Champions starts by reading Battle of the Champions at The Drunken Huntsman in Whiterun or waiting for a letter from a commanding officer.
+
+
+
+Created by Borx25
+
+Quest Created by Kris Takahashi
+
+
+
+Installation Files:
+
+ccffbsse001-imperialdragon.esl</description> 
+							<image path="Images\Equipment Sets\Civil War Champions.jpg" /> 
+							<files> 
+								<file source="CC Content\ccffbsse001-imperialdragon.esl" destination="ccffbsse001-imperialdragon.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccffbsse001-imperialdragon.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Divine Crusader"> 
+							<description>Now you, too, can wield the powerful equipment of the Divine Crusader, Pelinal Whitestrake - once reserved only for the revered Knights of the Nine. Armor can be found by exploring Four Skull Lookout far east-northeast of Markarth.
+
+
+
+Created by Maty743
+
+
+
+Installation Files:
+
+ccmtysse001-knightsofthenine.esl</description> 
+							<image path="Images\Equipment Sets\Divine Crusader.jpg" /> 
+							<files> 
+								<file source="CC Content\ccmtysse001-knightsofthenine.esl" destination="ccmtysse001-knightsofthenine.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Redguard Elite Armaments"> 
+							<description>Connect with a network of Redguard agents known as the Remnants, and help them recover one of their own from the Thalmor. Includes a brand new set of light armor plus two new weapons, such as the legendary Yokudan sword Boneshaver. The quest Interception starts by talking to Azadi in Shor's Stone far north of Riften.
+
+
+
+Created by ElleH and Sheoburgler
+
+
+
+Installation Files:
+
+ccedhsse003-redguard.esl</description> 
+							<image path="Images\Equipment Sets\Redguard Elite Armaments.jpg" /> 
+							<files> 
+								<file source="CC Content\ccedhsse003-redguard.esl" destination="ccedhsse003-redguard.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccedhsse003-redguard.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+			</optionalFileGroups> 
+		</installStep> 
+		<installStep name="Weapons"> 
+			<optionalFileGroups order="Explicit"> 
+				<group name="Swords" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Chrysamere"> 
+							<description>Known as the Paladin's Blade and Sword of Heroes, this legendary claymore is imbued with powerful magic, like Fire Resistance, Spell Absorption, and devastating damage. Weapon can be found in Forelhost southeast of Riften.
+
+
+
+Installation Files:
+
+ccbgssse007-chrysamere.esl</description> 
+							<image path="Images\Weapons\Chrysamere.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse007-chrysamere.esl" destination="ccbgssse007-chrysamere.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Dawnfang and Duskfang"> 
+							<description>Sealed away in the depths of the Riften Ratways is a dark and terrible secret, and at its heart, a sword of two minds. Transformed by the light of the sun and the moons, Dawnfang and Duskfang grants you the power to wield fire and ice and drink the souls of the vanquished. But to do that, you must first free the soul that binds it. The quest A Soul Divided starts by exploring the Riften Ratway.
+
+
+
+Created by SkinnyTechBoy
+
+
+
+Installation Files:
+
+ccbgssse013-dawnfang.esl</description> 
+							<image path="Images\Weapons\Dawnfang and Duskfang.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse013-dawnfang.esl" destination="ccbgssse013-dawnfang.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Goldbrand"> 
+							<description>The legendary katana Goldbrand has been wielded by those who have turned the pages of history. Now, this weapon has returned to Skyrim at the resting place of one such hero. Discover the ancient tomb and be the one to write its next chapter. The A Matter of Pride quest starts by finding Eranya in the Sacellum of Boethiah east of Windhelm.
+
+
+
+Installation Files:
+
+ccbgssse005-goldbrand.esl</description> 
+							<image path="Images\Weapons\Goldbrand.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse005-goldbrand.esl" destination="ccbgssse005-goldbrand.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse005-goldbrand.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="The Contest"> 
+							<description>Behind the din of tavern chatter, two warriors are embroiled in an argument. To settle it, they embark on a quest to see who can slay a monstrous spider. Follow their trail and learn what became of them. Includes the legendary Fists of Randagulf and the Ice Blade of the Monarch quest by Kris Takahashi. The Caught in a Webquest starts by reading Adonato Leotelli’s Journal in Candlehearth Hall.
+
+
+
+Installation Files:
+
+ccbgssse069-contest.esl</description> 
+							<image path="Images\Weapons\The Contest.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse069-contest.esl" destination="ccbgssse069-contest.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Umbra"> 
+							<description>The history of this Daedric artifact is recounted in the rise and fall of those that have wielded it. Forged from wicked hands and vile mind, legend says that Umbra itself lives. Umbra introduces a brand new Skyrim dungeon featuring stunning visuals, puzzle solving, and an exhilarating boss fight. The quest Vile Whispers starts by reading the Vigilant's Report in Champion's Rest, found in the mountains north-northeast of Riften.
+
+
+
+Additional Art Support by Elianora
+
+
+
+Installation Files:
+
+ccbgssse016-umbra.esm</description> 
+							<image path="Images\Weapons\Umbra.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse016-umbra.esm" destination="ccbgssse016-umbra.esm" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse005-goldbrand.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+				<group name="Blunt" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Headman's Cleaver"> 
+							<description>The Bloodfall Queen has had her cleaver stolen by an old foe. Track the bandits to their hideout and claim the Headman's Cleaver as your reward. After all, the Queen can replace the weapon - what she desires is revenge. The Blood in the Water quest can be provided when asking an innkeeper if they’ve heard any rumors lately.
+
+
+
+Quest Created by Kris Takahashi
+
+
+
+Installation Files:
+
+ccbgssse068-bloodfall.esl</description> 
+							<image path="Images\Weapons\Headman's Cleaver.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse068-bloodfall.esl" destination="ccbgssse068-bloodfall.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Stendarr's Hammer"> 
+							<description>Rumored to have been wielded by Stendarr, the God of Righteous Might and Merciful Forbearance himself, this two-handed hammer will deliver devastation to any foe. Weapon can be stolen from the Dwemer Museum in Markarth.
+
+
+
+Installation Files:
+
+ccbgssse006-stendarshammer.esl</description> 
+							<image path="Images\Weapons\Stendarr's Hammer.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse006-stendarshammer.esl" destination="ccbgssse006-stendarshammer.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Sunder and Wraithguard"> 
+							<description>Crafted by the Dwemer Tonal Architect Lord Kagrenac, Sunder and Wraithguard represent two of the three tools created to tap into the Heart of Lorkhan. Imbued with ancient magic, the weapons are said to empower not only their wielder, but each other. The quest Legends Lost starts by reading the Lost Caravan Guard's Note at the New Gnisis Cornerclub in Windhelm.
+
+
+
+Additional Art Support by Elianora
+
+
+
+Installation Files:
+
+ccbgssse008-wraithguard.esl</description> 
+							<image path="Images\Weapons\Sunder and Wraithguard.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse008-wraithguard.esl" destination="ccbgssse008-wraithguard.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse008-wraithguard.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+				<group name="Ranged" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Bow of Shadows"> 
+							<description>Forged by Nocturnal and used by assassins, it grants the user the gifts of invisibility and speed. The In the Shadows quest starts by speaking to the Jarl’s Steward in Dragonsreach.
+
+
+
+Quest Created by Kris Takahashi
+
+
+
+Installation Files:
+
+ccbgssse038-bowofshadows.esl</description> 
+							<image path="Images\Weapons\Bow of Shadows.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse038-bowofshadows.esl" destination="ccbgssse038-bowofshadows.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse038-bowofshadows.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Elite Crossbows"> 
+							<description>The crossbow has long been the weapon of choice for skilled hunters, whether the prey be animals of the forest or creatures of the night. Forged from the rarest of metals, the Ebony and Elven crossbows represent two of the most deadly ranged weapons in all of Tamriel. The quest Night Hunter starts by reading Kragrash's Letter at Ironback Hideout northwest of Solitude.
+
+
+
+Installation Files:
+
+ccbgssse043-crosselv.esl</description> 
+							<image path="Images\Weapons\Elite Crossbows.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse043-crosselv.esl" destination="ccbgssse043-crosselv.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse043-crosselv.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Expanded Crossbows"> 
+							<description>Available now at the Fletcher in Solitude, eight crossbows made from the finest Tamrielic materials! Choose from simple but elegant crossbows of Imperial, Orcish, Silver, or Nordic design, or high grade versions of Glass, Stalhrim, Daedric and Dragonbone. Purchase these finely assembled weapons at the Fletcher, or acquire one and learn to craft them yourself.
+
+
+
+Created by Borx25
+
+
+
+Installation Files:
+
+ccffbsse002-crossbowpack.esl</description> 
+							<image path="Images\Weapons\Expanded Crossbow Pack.jpg" /> 
+							<files> 
+								<file source="CC Content\ccffbsse002-crossbowpack.esl" destination="ccffbsse002-crossbowpack.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Ruin's Edge"> 
+							<description>Wield this deadly dark bow, favored weapon of Syl, the Duchess of Dementia. Each arrow shot has the chance to cast a spell, like Paralyze, Silence, Demoralize, or Frenzy. Weapon is located in Stony Creek Cave far southeast of Windhelm.
+
+
+
+Installation Files:
+
+ccbgssse004-ruinsedge.esl</description> 
+							<image path="Images\Weapons\Ruin's Edge.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse004-ruinsedge.esl" destination="ccbgssse004-ruinsedge.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse004-ruinsedge.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+				<group name="Misc" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Arcane Archer Pack"> 
+							<description>Give your hunting a magickal advantage with equipment specially designed for archers, like Telekinesis Arrows, Soul Stealer Arrows, Fire and Ice Arrows, Lightning Arrows, and a unique power that equips a Bound Quiver. Telekinesis arrows are found in The Arcanaeum in the College of Winterhold, Soul Stealer Arrows can be found in Kagrumez. All other arrows can be purchased at vendors and appear in containers.
+
+
+
+Installation Files:
+
+cbgssse002-exoticarrows.esl</description> 
+							<image path="Images\Weapons\Arcane Archer Pack.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse002-exoticarrows.esl" destination="ccbgssse002-exoticarrows.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Shadowrend"> 
+							<description>To obtain the legendary Shadowrend – an enchanted sword or battleaxe of tremendous power – you need only face the most worthy foe imaginable: yourself. The quest Through a Glass, Darkly starts by claiming the weapon in the hot springs near the Atronach Stone.
+
+
+
+Quest Implemented by Unoctium
+
+
+
+Installation Files:
+
+ccbgssse018-shadowrend.esl</description> 
+							<image path="Images\Weapons\Shadowrend.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse018-shadowrend.esl" destination="ccbgssse018-shadowrend.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse018-shadowrend.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Staff of Hasedoki"> 
+							<description>It's said the wizard Hasedoki traveled all of Tamriel in search of his equal, before binding his soul to a staff. Through the years this mysterious weapon has changed many hands, as if warding off anyone who isn't worthy enough to claim it. Now, it's your turn. The quest The Staff of Hasedoki starts by reading the Smuggler's Trade Notes at the bandit camp west of Dragonsreach.
+
+
+
+Quest Created by Kris Takahashi
+
+
+
+Installation Files:
+
+ccbgssse045-hasedoki.esl</description> 
+							<image path="Images\Weapons\Staff of Hasedoki.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse045-hasedoki.esl" destination="ccbgssse045-hasedoki.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse045-hasedoki.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Staff of Sheogorath"> 
+							<description>Symbol of office for the Madgod Sheogorath, this grotesque staff has the power to stop opponents in their tracks. Also included is a bonus artifact, the Fork of Horripilation. The quest Put a Fork in it starts by reading a Mysterious Note at The Retching Netch in Raven Rock.
+
+
+
+Installation Files:
+
+ccbgssse019-staffofsheogorath.esl</description> 
+							<image path="Images\Weapons\Staff of Sheogorath.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse019-staffofsheogorath.esl" destination="ccbgssse019-staffofsheogorath.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Staves"> 
+							<description>Features seven classic staves from the Elder Scrolls III Morrowind. Purchase staves with unique enchantments from Master Neloth, or buy an unenchanted staff and apply one yourself. Items appear at vendors and in chests.
+
+
+
+Installation Files:
+
+ccbgssse066-staves.esl</description> 
+							<image path="Images\Weapons\Staves.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse066-staves.esl" destination="ccbgssse066-staves.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+			</optionalFileGroups> 
+		</installStep> 
+		<installStep name="Gameplay"> 
+			<optionalFileGroups order="Explicit"> 
+				<group name="Mechanics" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Survival Mode"> 
+							<description>In Survival Mode, your greatest adversary is Skyrim itself. Unrelenting cold, harsh wilderness, famine and fatigue - do you have the strength to endure? Creation can be turned on or off in Settings menu. For details, consult Help Menu.
+
+
+
+RECOMMENDED
+
+It's recommended that this remains enabled as it came with the Anniversary Edition free and can be disabled in the game settings.
+
+
+
+Installation Files:
+
+ccQDRSSE001-SurvivalMode.esl</description> 
+							<image path="Images\Gameplay\Survival Mode.jpg" /> 
+							<files> 
+								<file source="CC Content\ccQDRSSE001-SurvivalMode.esl" destination="ccQDRSSE001-SurvivalMode.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccQDRSSE001-SurvivalMode.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Camping"> 
+							<description>Make Skyrim that much more accommodating with this cozy movable campsite, complete with a lean-to for sleeping, campfire for warmth and some cooking, and a new fast travel marker. Creation craftable via Forge.
+
+
+
+Installation Files:
+
+ccqdrsse002-firewood.esl</description> 
+							<image path="Images\Gameplay\Camping.jpg" /> 
+							<files> 
+								<file source="CC Content\ccqdrsse002-firewood.esl" destination="ccqdrsse002-firewood.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Farming"> 
+							<description>Build, upgrade, and manage your own farmstead in the heart of Whiterun. Elect a steward to oversee the day-to-day and purchase upgrades such as animal pens, windmills, apiaries and stables. Whether it's building a commercial empire, growing crops, or working with animals, there are no shortage of gameplay options here. The quest The Unquiet Dead starts by investigating Goldenhills Plantation east of Rorikstead.
+
+
+
+Created by SteelFeathers
+
+
+
+Installation Files:
+
+ccvsvsse004-beafarmer.esl</description> 
+							<image path="Images\Gameplay\Farming.jpg" /> 
+							<files> 
+								<file source="CC Content\ccvsvsse004-beafarmer.esl" destination="ccvsvsse004-beafarmer.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccvsvsse004-beafarmer.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Fishing"> 
+							<description>Test your mettle as a fisherman in a brand new series of fishing quests, and catch over twenty new aquatic species in waters across Skyrim. Cook them or display them in Lakeview Manor, Heljarchen Hall and Windstad Manor in your home aquarium. Initial quest Angler Acquaintances starts by using any Fishing Supplies scattered across Skyrim.
+
+
+
+RECOMMENDED
+
+It's recommended that this remains enabled as it came with the Anniversary Edition free and combines with the existing Hearthfire DLC.
+
+
+
+Installation Files:
+
+ccBGSSSE001-Fish.esm</description> 
+							<image path="Images\Gameplay\Fishing.jpg" /> 
+							<files> 
+								<file source="CC Content\ccBGSSSE001-Fish.esm" destination="ccBGSSSE001-Fish.esm" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccBGSSSE001-Fish.esm" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+				<group name="Creatures" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Plague of the Dead"> 
+							<description>In Skyrim, when the sun falls, the dead rise! Beat back the zombie hordes, and retrieve valuable Mort Flesh. Creations appear at night at certain locations in the world and through a quest. The quest The Rising Dead starts by reading an Anonymous Letter delivered by courier upon reaching level 5.
+
+
+
+Installation Files:
+
+ccbgssse003-zombies.esl</description> 
+							<image path="Images\Gameplay\Plague of the Dead.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse003-zombies.esl" destination="ccbgssse003-zombies.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse003-zombies.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Wild Horses"> 
+							<description>The horses of Skyrim are hardy and strong, and taming them requires grit and patience. Use a hostler's map to find these animals in the wild and mount them, and try not to get bucked. Once tamed, you can register them at the nearest stable and customize their saddles, as well as the saddles of any other horse you own. You may even find the rare unicorn brought back from dead, to right a wrong of the past. The quest to find a unicorn, Creature of Legend can be found by reading Soran's Journal at the Arcanaeum. A map to other horses may be purchased at any hostler.
+
+
+
+Installation Files:
+
+ccbgssse034-mntuni.esl</description> 
+							<image path="Images\Gameplay\Wild Horses.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse034-mntuni.esl" destination="ccbgssse034-mntuni.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse034-mntuni.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+				<group name="Items" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Arcane Accessories"> 
+							<description>From robes that grant spellcasting bonuses, to ancient tomes holding powerful spells like Paralysis Rune and Unbounded Frost, this pack will increase any mage's effectiveness. Robes and Spells can be purchased at vendors and appear in containers.
+
+
+
+Installation Files:
+
+ccbgssse014-spellpack01.esl</description> 
+							<image path="Images\Gameplay\Arcane Accessories.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse014-spellpack01.esl" destination="ccbgssse014-spellpack01.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Necromatic Grimoire"> 
+							<description>Rule over the realm of life and death with the Necromantic Arts pack. This creation features a unique necromancer robe with all new enchantments and variants, and 13 necromancy themed spells allowing you to conjure a wide variety of skeletons, apparitions, and powerful creatures, including the mighty Bone Colossus. Items can be purchased at vendors and appear in containers.
+
+
+
+Created by SteelFeathers
+
+
+
+Installation Files:
+
+ccvsvsse003-necroarts.esl</description> 
+							<image path="Images\Gameplay\Necromatic Grimoire.jpg" /> 
+							<files> 
+								<file source="CC Content\ccvsvsse003-necroarts.esl" destination="ccvsvsse003-necroarts.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccvsvsse003-necroarts.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Rare Curios"> 
+							<description>Alchemists have always known that the rarest ingredients bring life to the most powerful potions. This is why Khajiit caravans have brought along rare imports from the far reaches of Tamriel, from the Ashlands of Morrowind to the twisted gardens of the Shivering Isles. With these ingredients in hand, you can craft new potions, arrows, and poisons, including the poisoned apple favored by assassins. You can also find rare stones crafted by the Ayleids, as things exotic and foreign make their way to Skyrim. Items added to Khajiit merchant vendors.
+
+
+
+RECOMMENDED
+
+It's recommended that this remains enabled as it came with the Anniversary Edition free and is integrated with leveled lists throughout the game.
+
+
+
+Installation Files:
+
+ccBGSSSE037-Curios.esl</description> 
+							<image path="Images\Gameplay\Rare Curios.jpg" /> 
+							<files> 
+								<file source="CC Content\ccBGSSSE037-Curios.esl" destination="ccBGSSSE037-Curios.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+											</dependencies> 
+											<type name="NotUsable"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+			</optionalFileGroups> 
+		</installStep> 
+		<installStep name="Followers"> 
+			<optionalFileGroups order="Explicit"> 
+				<group name="Selection" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Bone Wolf"> 
+							<description>Despite being raised by necromancers, a Bone Wolf's true loyalty is earned through actions rather than magic. A faithful companion with a bone to pick, this skeletal pet will reward your friendship by carrying items and boosting your damage against the undead. The quest Let Sleeping Wolves Lie starts by reading the Letter from Bolgeir Bearclaw delivered by courier after completion of The Wolf Queen Awakened.
+
+
+
+Created by SkinnyTechBoy
+
+
+
+Installation Files:
+
+ccbgssse036-petbwolf.esl</description> 
+							<image path="Images\Followers\Bone Wolf.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse036-petbwolf.esl" destination="ccbgssse036-petbwolf.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Dwarven Armored Mudcrab"> 
+							<description>It's a mystery how, why, or where this faithful companion received his special armor, but one thing's for certain - nobody's seen a Mudcrab like this before. Pet can be purchased from Calcelmo in Markarth.
+
+
+
+Installation Files:
+
+ccbgssse010-petdwarvenarmoredmudcrab.esl</description> 
+							<image path="Images\Followers\Dwarven Armored Mudcrab.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse010-petdwarvenarmoredmudcrab.esl" destination="ccbgssse010-petdwarvenarmoredmudcrab.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Goblins"> 
+							<description>From the caves of Cyrodiil comes a horde of these feisty green creatures, led by a mysterious Blue God wielding a Goblin Staff. Includes new encounters, an ingredient, and a recruitable goblin. The quest Blue in the Face starts by reading Letter to Clexius at The Bee and Barb in Riften.
+
+
+
+Quest Created by Kris Takahashi
+
+Additional Art Support by ElleH
+
+
+
+Installation Files:
+
+ccbgssse040-advobgobs.esl</description> 
+							<image path="Images\Followers\Goblins.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse040-advobgobs.esl" destination="ccbgssse040-advobgobs.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse040-advobgobs.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Nix-Hound"> 
+							<description>Found in the wilderness of Solstheim, a tamed Nix-Hound can be adopted as your faithful companion. Nix-Hounds can carry items, and scrounge for useful ingredients. Pet can be purchased from Revus Sarvani near Tel Mithryn or Geldis Sadri at the The Retching Netch Corner Club in Raven Rock if the former is deceased. Hostile Nix-Hounds can be found in the Solstheim wilderness.
+
+
+
+Installation Files:
+
+ccbgssse035-petnhound.esl</description> 
+							<image path="Images\Followers\Nix-Hound.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse035-petnhound.esl" destination="ccbgssse035-petnhound.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Pets of Skyrim"> 
+							<description>Become a powerful beastmaster with the Skyrim Pet Pack. Rescue tamed creatures and recruit them as your trusted followers. Use their unique abilities to adapt and thrive as you explore the breadth of Skyrim. From stealthy foxes to web-spinning spiders - as well as goats, rabbits, and skeevers - you can recruit the pet that best matches your gameplay. With five different animal species to choose from, there's a fun and furry companion for every adventurer. The quest Pets of Skyrim starts by reading the note For Sale in The Bannered Mare.
+
+
+
+Installation Files:
+
+ccvsvsse002-pets.esl</description> 
+							<image path="Images\Followers\Pets of Skyrim.jpg" /> 
+							<files> 
+								<file source="CC Content\ccvsvsse002-pets.esl" destination="ccvsvsse002-pets.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccvsvsse002-pets.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+			</optionalFileGroups> 
+		</installStep> 
+		<installStep name="Player Homes"> 
+			<optionalFileGroups order="Explicit"> 
+				<group name="Selection" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Bloodchill Manor"> 
+							<description>Perched high in the mountains to the north. This unique player home features several multi-level living quarters, including a dungeon area and bed coffins perfect for warden of the night.
+
+
+
+The quest Guests for Dinner starts by reading the Dinner Invitation delivered by courier upon reaching level 12.
+
+
+
+Created by Elianora
+
+Quest Created by Kris Takahashi
+
+
+
+Installation Files:
+
+cceejsse005-cave.esm</description> 
+							<image path="Images\Player Homes\Bloodchill Manor.jpg" /> 
+							<files> 
+								<file source="CC Content\cceejsse005-cave.esm" destination="cceejsse005-cave.esm" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="cceejsse005-cave.esm" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Gallows Hall"> 
+							<description>Old forts have long been bastions for the dead, as mortals both wicked and misunderstood have hung from their gallows. Here, a necromancer can find a home filling its coffers with treasures that suit the morbid and macabre - provided they survive it. Claim the legendary Bloodworm Helm, Helm of Oreyn Bearclaw, and the Staff of Worms to wield the power of Mannimarco himself. The Dreams of the Dead quest starts by reading Naara’s Journal within the abandoned fort on the northern edge of Mara’s Eye Pond.
+
+
+
+Created by Rich Marin
+
+
+
+Installation Files:
+
+ccrmssse001-necrohouse.esl</description> 
+							<image path="Images\Player Homes\Gallows Hall.jpg" /> 
+							<files> 
+								<file source="CC Content\ccrmssse001-necrohouse.esl" destination="ccrmssse001-necrohouse.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccrmssse001-necrohouse.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Hendhraheim"> 
+							<description>In the mountains of the Reach is a grand Nordic hall, built in a tradition befitting the warriors of old. The walls are decorated in triumph, each piece a memory of its owner's lasting valor. The quest Hendraheim starts by reading the Warrior's Challenge delivered by courier upon reaching level 10.
+
+
+
+Created by Elianora
+
+
+
+Installation Files:
+
+cceejsse004-hall.esl</description> 
+							<image path="Images\Player Homes\Hendhraheim.jpg" /> 
+							<files> 
+								<file source="CC Content\cceejsse004-hall.esl" destination="cceejsse004-hall.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="cceejsse004-hall.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Myrwatch"> 
+							<description>Deep in the heart of Hjaalmarch lies a tower of unknown provenance. Legends say it was a home and hearth, an exquisitely decorated residence built by mages who defected from the College of Winterhold. But whatever its secrets, the truth can only be known by finding a way in. The quest Myrwatch starts by traveling to the tower east of Morthal, and reading Hans's Journal nearby.
+
+
+
+Created by Elianora
+
+
+
+Installation Files:
+
+cceejsse002-tower.esl</description> 
+							<image path="Images\Player Homes\Myrwatch.jpg" /> 
+							<files> 
+								<file source="CC Content\cceejsse002-tower.esl" destination="cceejsse002-tower.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Nchuanthumz"> 
+							<description>Operate the downstairs Manufactory and build automatons to restore this cavernous home to its original luster. Once rebuilt, its spacious halls make it the perfect residence for any fan of Dwemer architecture and engineering. The quest starts by reading Seeks-Ancient-Artifacts' Journal, Volume 1 in the Frozen Hearth in Winterhold.
+
+
+
+Created by Flenarn and Arthmoor
+
+
+
+Installation Files:
+
+ccafdsse001-dwesanctuary.esm</description> 
+							<image path="Images\Player Homes\Nchuanthumz.jpg" /> 
+							<files> 
+								<file source="CC Content\ccafdsse001-dwesanctuary.esm" destination="ccafdsse001-dwesanctuary.esm" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Shadowfoot Sanctum"> 
+							<description>A thief does not fear the dark, for they call the shadows home. Shadowfoot Sanctum is a brand new player domicile nestled in the dark underbelly of the Riften Ratways. With a secret sewer entrance and easy access to the Thieves Guild, Shadowfoot Sanctum provides both convenience and concealment for any aspiring thief, as well as a secret room to display your spoils with discretion. House can be purchased from Vekel the Man in the Ragged Flagon in the Riften Ratway.
+
+
+
+Created by Elianora
+
+
+
+Installation Files:
+
+cceejsse003-hollow.esl</description> 
+							<image path="Images\Player Homes\Shadowfoot Sanctum.jpg" /> 
+							<files> 
+								<file source="CC Content\cceejsse003-hollow.esl" destination="cceejsse003-hollow.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Tundra Homestead"> 
+							<description>Tundra Homestead provides a cozy cottage just outside Whiterun. Complete with crafting stations and fully furnished, this home is a quiet getaway from adventuring. Full support for spouses and adopted children included. House outside the city is purchased from the Jarl's Steward in Dragonsreach.
+
+
+
+Created by Elianora
+
+
+
+Installation Files:
+
+cceejsse001-hstead.esm</description> 
+							<image path="Images\Player Homes\Tundra Homestead.jpg" /> 
+							<files> 
+								<file source="CC Content\cceejsse001-hstead.esm" destination="cceejsse001-hstead.esm" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="cceejsse001-hstead.esm" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+			</optionalFileGroups> 
+		</installStep> 
+		<installStep name="Quests"> 
+			<optionalFileGroups order="Explicit"> 
+				<group name="Selection" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Dead Man's Dread"> 
+							<description>Shanties from across Tamriel sing of Cyrus, the hero of Stros M'Kai. Some believe he ventured north, on the legendary ship Dead Man's Dread. Find the lost ship, retrieve the treasures of Cyrus, and learn the fate of its crew. Includes two weapons, multiple new outfits, as well as naval home. The quest The Restless starts by reading the book The Restless at The Winking Skeever in Solitude.
+
+
+
+Quest Created by Kris Takahashi
+
+Additional Art Support by Elianora
+
+
+
+Installation Files:
+
+ccbgssse031-advcyrus.esm</description> 
+							<image path="Images\Quests\Dead Man's Dread.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse031-advcyrus.esm" destination="ccbgssse031-advcyrus.esm" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse031-advcyrus.esm" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Forgotten Seasons"> 
+							<description>Forgotten Seasons offers a brand new dungeon adventure featuring work from a number of creators. In addition to its spacious exploration, the creation provides a myriad of unique rewards including a new mount, armor, items, and perks, many of which feature custom art assets and designs. Search for the Runoff Caverns west of Lost Valley Redoubt.
+
+
+
+Created by Trainwiz
+
+Additional Art Support by PrivateEye, Elianora and FadingSignal
+
+Additional Design Work by Kris Takahashi
+
+
+
+Installation Files:
+
+cctwbsse001-puzzledungeon.esm</description> 
+							<image path="Images\Quests\Forgotten Seasons.jpg" /> 
+							<files> 
+								<file source="CC Content\cctwbsse001-puzzledungeon.esm" destination="cctwbsse001-puzzledungeon.esm" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="cctwbsse001-puzzledungeon.esm" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Ghosts of the Tribunal"> 
+							<description>In the aftermath of the Red Year, worship of the Tribunal has been replaced by the Reclamation. Yet the strands of memory linger on Solstheim, the chant of ALMSIVI muttered by rebel priests and devotees of the old way. Includes over a dozen weapons and several armors featured in the Elder Scrolls III Morrowind, including Hopesfire, Trueflame, and masks of the Tribunal. The quest Ghosts of the Tribunal starts by reading Heretic Dossier Blacksmith's Confessional at the Temple in Raven Rock.
+
+
+
+Quest Created by Kris Takahashi
+
+
+
+Installation Files:
+
+ccasvsse001-almsivi.esm</description> 
+							<image path="Images\Quests\Ghosts of the Tribunal.jpg" /> 
+							<files> 
+								<file source="CC Content\ccasvsse001-almsivi.esm" destination="ccasvsse001-almsivi.esm" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccasvsse001-almsivi.esm" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Saints and Seducers"> 
+							<description>This creation contains multiple quests, a new dungeon, two artifacts, several new sets of weapons and armor, recruitable pets, alchemy ingredients, summoning spells, and more all from the realm of the Mad God Sheogorath! Includes bonus Creation Rare Curios. The quest Balance of Power starts by talking to the traveling Khajiit Merchant Ri'saad.
+
+
+
+Additional Art Support by Elianora
+
+Additional Design Work by Kris Takahashi
+
+
+
+RECOMMENDED
+
+It's recommended that this remains enabled as it came with the Anniversary Edition free and links with other content such as Rare Curios.
+
+
+
+Installation Files:
+
+ccBGSSSE025-AdvDSGS.esm</description> 
+							<image path="Images\Quests\Saints and Seducers.jpg" /> 
+							<files> 
+								<file source="CC Content\ccBGSSSE025-AdvDSGS.esm" destination="ccBGSSSE025-AdvDSGS.esm" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccBGSSSE025-AdvDSGS.esm" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="The Cause"> 
+							<description>Despite their losses, the Mythic Dawn continue to serve Lord Dagon in the shadows, in search of a new gate, and a different ending. Features brand new enemies, locations, weapons, flora, and a conjurable Daedric Horse, all contained in a multi-layered adventure. The quest The Cause starts by reading the Stranger's Plea delivered by courier upon reaching level 46.
+
+
+
+Created by FadingSignal
+
+
+
+NOTICE!
+
+This will NOT work with a backport to pre-AE Special Edition as it requires assets from the updated ESM.
+
+
+
+Installation Files:
+
+ccbgssse067-daedinv.esm</description> 
+							<image path="Images\Quests\The Cause.jpg" /> 
+							<files> 
+								<file source="CC Content\ccbgssse067-daedinv.esm" destination="ccbgssse067-daedinv.esm" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccbgssse067-daedinv.esm" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+			</optionalFileGroups> 
+		</installStep> 
+		<installStep name="Miscellaneous"> 
+			<optionalFileGroups order="Explicit"> 
+				<group name="Selection" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Bittercup"> 
+							<description>In the forests of Falkreath lies a mysterious altar, promising the gift of a single boon. Walk the path that reflects your desire — or lack thereof — and embark on a unique adventure based on that choice. Discover the fabled Bittercup and three separate quests.
+
+
+
+Installation Files:
+
+cckrtsse001_altar.esl</description> 
+							<image path="Images\Misc\Bittercup.jpg" /> 
+							<files> 
+								<file source="CC Content\cckrtsse001_altar.esl" destination="cckrtsse001_altar.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="cckrtsse001_altar.esl" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Saturalia Holiday Pack"> 
+							<description>Once known as a day of debauchery, Saturalia has since transformed into a time of gift giving and cheer. Celebrate the holidays with these festive Saturalia garments, and spread merriment across Skyrim on your very own reindeer. Outfit and mount obtained from Agrane Peryval, west of Dawnstar.
+
+
+
+Created by SteelFeathers
+
+
+
+Installation Files:
+
+ccvsvsse001-winter.esl</description> 
+							<image path="Images\Misc\Saturalia Holiday Pack.jpg" /> 
+							<files> 
+								<file source="CC Content\ccvsvsse001-winter.esl" destination="ccvsvsse001-winter.esl" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="NotUsable"/> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+			</optionalFileGroups> 
+		</installStep> 
+	</installSteps> 
+</config>
