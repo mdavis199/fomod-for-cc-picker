@@ -2303,7 +2303,17 @@ ccBGSSSE025-AdvDSGS.esm</description>
 								<file source="CC Content\ccBGSSSE025-AdvDSGS.esm" destination="ccBGSSSE025-AdvDSGS.esm" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
-								<type name="Optional"/> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<flagDependency flag="PreselectAll" value="On"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
 							</typeDescriptor> 
 						</plugin> 
 						<plugin name="The Cause"> 
