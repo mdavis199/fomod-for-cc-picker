@@ -260,7 +260,7 @@ It's essential that you watch the video or read the instructions before ues.</de
 						<plugin name="Everything"> 
 							<description>Because of the way FOMOD works, settings on a page will not programmatically change once the page is viewed. For example:
 
-Say you select the option "Everything", move to Apparel, then move back to this page and select the option "Nothing".  When you move forward again to Apparel, the page will still have everything selected.   Moving forward to a page you haven't viewed yet will then have nothing preselected.
+Say you select the option "Everything", move to Apparel, then move back to this page and select the option "Nothing".  When you move forward again to Apparel, the page will still have everything selected.   Moving forward to a page you haven't viewed yet will have nothing pre-selected.
 
 This is not a bug.</description> 
 							<conditionFlags> 
